@@ -1,0 +1,20 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noEmitOnError": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "ES5",
+    "typeRoots": ["src/types", "node_modules/@types"],
+    "lib": ["ES2015", "DOM"],
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"]
+}
